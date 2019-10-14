@@ -64,6 +64,9 @@
         position:absolute; top:450px; left:190px; width:80px; height:40px;   
     }
     body{
-      background-color:skyblue; 
+      background-color:skyblue 
+    }
+    button{
+      color: blue
     }
     input[type=number] {text-align: right;}
