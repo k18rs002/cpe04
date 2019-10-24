@@ -199,7 +199,6 @@
         alarm();
         active = false;
         period = 60* parseInt( $("#minute").val() ) + parseInt( $("#second").val() );
-        $("#stop").html("タイマー開始");
         $("#time").html("経過時間： 0");
         $("#remain").html("残り時間： " + period);
 
@@ -218,7 +217,6 @@
       }
       if(rest <= 0){
         active = false;
-        $("#stop").html("タイマー終了");
         alarm();
       }
         
